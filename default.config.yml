@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - nvm
   - php
   - ssh-copy-id
+  - sslscan
   - cowsay
   - readline
   - openssl
@@ -47,22 +48,25 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
   - docker
-  - dropbox
-  - firefox
-  - google-chrome
-  - handbrake
+  #- dropbox
+  #- firefox
+  #- google-chrome
+  #- handbrake
   - licecap
   - macvim
-  - sequel-pro
-  - skitch
+  - microsoft-office
+  - microsoft-remote-desktop-beta
+  #- sequel-pro
+  #- skitch
   - slack
   - sublime-text
-  - transmit
+    #- transmit
   - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
